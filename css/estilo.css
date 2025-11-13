@@ -59,6 +59,7 @@ hr{
 #exemplo04 input[type=submit]{
     border-radius: 15px;
     background-color: black;
+    
 }
 
 #exemplos05 legend{
@@ -72,9 +73,5 @@ hr{
 #exemplo05 fieldset{
     border: solid 5px darkgoldenrod;
     font-size: 15px;
-    color: darkgreen;
-    font-weight: bold;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-style: italic;
 
 }

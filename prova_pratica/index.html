@@ -1,11 +1,90 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset='utf-8'>
+    <title>Formulario</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="css/estilo.css">
 </head>
+
 <body>
-    
+    <h1>FORMULARIO SUPER<strong>AÇAI</strong>AJIN</h1>
+    <form method="get" action="confirma.html">
+        <fieldset class="dadospessoais">
+            <legend>
+                Dados pessoais:
+            </legend>
+            <label>Nome:<p></p><input type="text" required></label>
+            <p></p>
+            <label>Idade:<p></p><input type="number" required></label>
+            <p></p>
+            <label>Telefone:<p></p><input type="number" required></label>
+            <p></p>
+            <label>Endereço:<p></p><input type="text" required></label>
+            <p></p>
+			<label>Planeta de Origem:
+			<br>
+			<br>
+                <select>
+                    <option>Planeta Terra</option>
+                    <option>Planeta Namek</option>
+                    <option>Planeta Vegeta</option>
+					<option>Outros</option>
+                </select>
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>
+                Dados extras:
+            </legend>
+            <label>Raça do Universo 7 preferida:
+                <select>
+                    <option>Terráqueo</option>
+                    <option>Sayajin</option>
+                    <option>Namekuseijin</option>
+					<option>Androide</option>
+					<option>Outros</option>
+                </select>
+            </label>
+            <br>
+            <br>
+            <label>Trabalho:
+                <input type="radio" name="cargo" value="1" checked>Autônomo
+                <input type="radio" name="cargo" value="2">Empregado CLT
+                <input type="radio" name="cargo" value="3">Empresário
+                <input type="radio" name="cargo" value="4">Tipo Goku
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>
+                Seu açai é perfeito de que jeito?
+            </legend>
+            <input type="checkbox">Puro
+            <input type="checkbox">Com Banana
+            <input type="checkbox">Com Morango
+            <input type="checkbox">Com Granola
+            <input type="checkbox">Tem gosto de Terra
+        </fieldset>
+        <fieldset>
+            <legend>
+                Qual o tamanho preferido?
+            </legend>
+            <input type="radio" name="tamanho" value="1" checked>500ml
+            <input type="radio" name="tamanho" value="2">300ml
+            <input type="radio" name="tamanho" value="3">100ml
+            <input type="radio" name="tamanho" value="4">Casquinha
+            <input type="radio" name="tamanho" value="5">Qual parte do gosto de terra voce nao entendeu?
+        </fieldset><br>
+        <fieldset>
+            Observações:<br>
+            <textarea cols="195" rows="8">Escreva suas observações...Eu gosto de açai porque...</textarea>
+        </fieldset>
+        <div>
+            <input type="submit" value="ENVIAR">
+            <input type="reset" value="LIMPAR">
+        </div>
+    </form>
 </body>
+
 </html>

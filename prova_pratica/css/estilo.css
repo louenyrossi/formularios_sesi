@@ -1,0 +1,47 @@
+body{
+    background-color: indigo;
+    background-image: url(../imagem/goku.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    color: white;
+}
+
+h1{
+    text-align: center;
+    background-color: darkmagenta;
+    border-radius: 10px;
+    border: gold solid;
+    color: goldenrod;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+fieldset{
+    border: solid gold;
+    
+}
+
+div input{
+    background-color: darkmagenta;
+    border-radius: 5px;
+    border: darkmagenta;
+    color: white;
+    padding: 8px;
+}
+
+fieldset select{
+    border-radius: 5px;
+    width: 500px ;
+    height: 25;
+}
+
+textarea{
+    resize: none;
+}
+
+.dadospessoais input{
+    width: 700px;
+    height: 15px;
+}
+
+
